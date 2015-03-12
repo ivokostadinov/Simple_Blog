@@ -7,7 +7,7 @@ return "<form method='post' action='admin.php?page=users'>
     <fieldset>
         <legend>Create new admin user</legend>
         <label>e-mail</label>
-        <input type='text' name='email' required/>
+        <input type='email' name='email' required/>
         <label>password</label>
         <input type='password' name='password' required/>
         <input type='submit' value='create user' name='new-admin'/>
